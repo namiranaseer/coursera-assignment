@@ -1,0 +1,149 @@
+section{
+height: 1000px;
+  }
+ p{
+  padding: 10px;
+ }
+  body {
+  font-size: 20px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+ a{
+  font-style: underline;
+ }
+
+
+.navbar-brand {
+  padding-top: 25px
+  padding-bottom:15px; 
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+
+}
+
+
+.navbar-header button.navbar-toggle {
+  
+}
+/
+
+h2{
+  text-align: center;
+  color: black;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+.menu-item-description {
+  padding-right: 30px;
+
+}
+h3.menu-item-title {
+  text-align: center;
+  color: black;
+  margin: 0 0 0;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.menu-item-details {
+  font-size: 15px;
+  background-color: gray;
+} 
+
+
+h3.menu-item-title , .menu-item-details{
+  background-color: gray;
+  color: black;
+}  
+/* END SINGLE CATEGORY PAGE */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw;
+    padding-bottom: 10px; /* 1vw = 1% of viewport width */
+  }
+  
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+
+  }
+
+  
+
+.menu-item-description div{
+  background-color: gray;
+}
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  
+}
+
+
